@@ -4,5 +4,12 @@ td,
 th {
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 5px;
+  padding: 1px;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
 }
